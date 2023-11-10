@@ -6,7 +6,6 @@ Given any stream of data, any assessment of its value, and any formulation of it
 You can reproduce the experiments in our paper by running:
 ```
 git clone ...
-cd dmgt
 conda env create -f environment.yml
 conda activate dmgt
 python <filename.py> --dataset_name 'imagenet(or mnist)' --train_path 'path/to/imagenet(or mnist)/train/' --val_path 'path/to/imagenet(or mnist)/val/'
