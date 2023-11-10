@@ -1,0 +1,15 @@
+name: dmgt
+dependencies:
+  - pip
+  - python=3.9
+  - numpy
+  - numpy-base
+  - matplotlib
+  - matplotlib-base
+  - pandas
+  - seaborn
+  - tqdm
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - sympy
