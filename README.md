@@ -8,5 +8,6 @@ You can reproduce the experiments in our paper by running:
 git clone ...
 conda env create -f environment.yml
 conda activate dmgt
+cd experiments
 python <filename.py> --dataset_name 'imagenet(or mnist)' --train_path 'path/to/imagenet(or mnist)/train/' --val_path 'path/to/imagenet(or mnist)/val/'
 ```
