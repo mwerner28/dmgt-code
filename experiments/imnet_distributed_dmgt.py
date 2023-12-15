@@ -5,7 +5,6 @@ import torchvision
 from torchvision.models import resnet50, resnet18, wide_resnet50_2
 from torchvision.datasets import ImageNet, ImageFolder
 from torchvision.models.resnet import ResNet, Bottleneck
-from torchvision.datasets import MNIST
 from torchvision import transforms
 from torchvision.utils import save_image
 from torchvision.transforms import Compose, ToTensor, Normalize, Resize, ToPILImage
